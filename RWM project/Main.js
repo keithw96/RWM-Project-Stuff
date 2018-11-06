@@ -1,3 +1,5 @@
+this.count = 0;
+this.game = true
 /**
  * Main entry point for the Javascript program.
  */
@@ -73,5 +75,4 @@ function onClickStart(game, e)
 	}
 	
 	draw();
-	//window.confirm("hi");
 }
